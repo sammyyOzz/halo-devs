@@ -1,0 +1,57 @@
+.home__top {
+    background-color:  #29292b;
+    height: 80vh;
+    width: 100vw;
+}
+
+.home__topGrid {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home__topGridContent {
+    display: block;
+}
+
+.home__topGrid > button {
+    background-color: yellow;
+    margin-top: 20px;
+    border: none;
+    width: 180px;
+    border-radius: 12px;
+    padding: 10px 5px;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#home__relax {
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+#home__hireExperts {
+    font-size: 40px;
+}
+
+#home__hireExpertsII {
+    font-size: 40px;
+}
+
+.home__topGrid > img {
+    max-width: 55%;
+    height: auto;
+}
+
+@media(max-width: 960px) {
+    .home__top {
+        height: auto;
+    }
+
+    .home__topGrid > img {
+        max-width: 30%;
+    }
+}

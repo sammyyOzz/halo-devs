@@ -1,0 +1,80 @@
+.header {
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1;
+    background-color: #29292b;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
+
+.header__logo {
+    padding-left: 30px;
+    font-size: 30px;
+    color: black;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.header__link{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 200ms linear;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    transform: scale(1.1);
+    transition: all 200ms linear;
+}
+
+.header__rightBtn > button {
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    background-color: rgba(2, 1, 1, 0);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #00CE1B;
+    border-radius: 50px 50px 50px 50px;
+    padding: 7px 10px 7px 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.header__rightBtn > button:hover {
+    background-color: #C9D500;
+}
+
+.header__right {
+    display: none;
+    padding-right: 30px;
+}
+
+/*  THE ORIGINAL THING
+    .header__right {
+    display: flex;
+    align-items: center;
+} */
+
+
+@media(max-width: 960px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__right {
+        display: flex;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+}
