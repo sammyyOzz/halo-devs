@@ -9,6 +9,7 @@ import {
 import Header from './Header';
 import Home from './Home';
 import HomeServices from './HomeServices';
+import HomeFeedback from './HomeFeedback';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/">
             <Home />
             <HomeServices />
+            <HomeFeedback />
           </Route>
         </Switch>
       </Router>
