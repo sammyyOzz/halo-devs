@@ -1,0 +1,75 @@
+.about {
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+.about__top {
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.about__topGrid {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__topGridContent {
+    display: block;
+    text-align: center;
+}
+
+#about__relax {
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+#about__hireExperts {
+    font-size: 40px;
+    color: black;
+}
+
+#about__hireExpertsII {
+    font-size: 40px;
+    color: yellow;
+}
+
+.about__topGrid > img {
+    max-width: 55%;
+    height: auto;
+}
+
+.about__box {
+    width: 80%;
+    background-color: #29292b;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about__box > h1 {
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+.about__box > p {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+
+
+@media(max-width: 960px) {
+    .about__top {
+        height: auto;
+    }
+
+    .about__topGrid > img {
+        max-width: 30%;
+    }
+}

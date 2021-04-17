@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import ReactDOM from 'react-dom';
 import {
     BrowserRouter as Router,
     Switch,
@@ -12,6 +10,7 @@ import HomeServices from './HomeServices';
 import HomeFeedback from './HomeFeedback';
 import HomePortfolio from './HomePortfolio';
 import Footer from './Footer';
+import AboutUs from './AboutUs';
 
 function App() {
   return (
@@ -25,10 +24,12 @@ function App() {
             <HomeFeedback />
             <HomePortfolio />
           </Route>
+          <Route exact path="/about">
+            <AboutUs />
+          </Route>
         </Switch>
         <Footer />
       </Router>
-      
     </div>
   );
 }

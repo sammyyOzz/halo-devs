@@ -10,7 +10,7 @@ function HomePortfolio() {
             <h1>Our Portfolio</h1>
             <div className="homePortfolio__content">
                 <Grid container spacing={10}>
-                    <Grid item xs={12} lg={6}>
+                    <Grid item xs={12} md={6}>
                         <div className="homePortfolio__app">
                             <h2>Drift Hub Application</h2>
                             <Grid item container>
@@ -27,7 +27,7 @@ function HomePortfolio() {
                         
                     </Grid>
 
-                    <Grid item xs={12} lg={6}>
+                    <Grid item xs={12} md={6}>
                         <div className="homePortfolio__app">
                             <h2>Marketier</h2>
                             <Grid item container>
