@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 2000;
+    width: 100vw;
 }
 
 .header__logo {

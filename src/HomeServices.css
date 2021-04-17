@@ -1,0 +1,57 @@
+.homeServices {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    background: url(./images/gids-100.jpg) repeat;
+    background-size: 400px 800px;
+    padding-bottom: 50px;
+    /* height: 250px; */
+}
+
+#homeServices__ourServices {
+    color: yellow;
+    margin-bottom: 25px;
+}
+
+#homeServices__ourServicesII {
+    margin-bottom: 50px;
+}
+
+.homeServices__carousel {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 50px; */
+}
+
+.homeServices__card {
+    height: 300px;
+    width: 250px;
+    padding: 8px;
+    background-color: rgba(240, 240, 191, 0.911);
+    border: 1px solid gray;
+    box-shadow: 3px 8px 12px rgb(27, 26, 26);
+}
+
+.homeServices__card > h2 {
+    margin-bottom: 15px;
+}
+
+.homeServices__card > p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.homeServices__cardIcon > img {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    height: 70px;
+    width: auto;
+}
+
+@media(max-width: 610px) {
+
+    .homeServices__carousel {
+        width: 50%
+    }
+}
