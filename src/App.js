@@ -10,6 +10,7 @@ import Header from './Header';
 import Home from './Home';
 import HomeServices from './HomeServices';
 import HomeFeedback from './HomeFeedback';
+import HomePortfolio from './HomePortfolio';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Home />
             <HomeServices />
             <HomeFeedback />
+            <HomePortfolio />
           </Route>
         </Switch>
       </Router>

@@ -26,7 +26,7 @@ function HomeFeedback() {
                             animation="slide"
                             interval={4000}
                             indicators={true}
-                            IndicatorIcon={false}
+                            IndicatorIcon={true}
                         >
                             {
                                 testimonies.map((text, i) => {
