@@ -11,6 +11,7 @@ import Home from './Home';
 import HomeServices from './HomeServices';
 import HomeFeedback from './HomeFeedback';
 import HomePortfolio from './HomePortfolio';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <HomePortfolio />
           </Route>
         </Switch>
+        <Footer />
       </Router>
       
     </div>
