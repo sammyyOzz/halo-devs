@@ -1,13 +1,29 @@
+import { makeStyles } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid'
 import React from 'react'
 import './AboutUs.css'
+import useAnimate from './hooks/useAnimate';
 import undrawImg from './images/undraw_interaction_design_odgc.svg'
 
+
+const useStyles = makeStyles((theme) => ({
+    [theme.breakpoints.down('sm')]: {
+      mainContainer: {
+          flexDirection: 'column-reverse'
+      }
+    }
+  }));
+
 function AboutUs() {
+    const classes = useStyles();
+
+    //hook import responsible for animation
+    useAnimate()
+
     return (
         <div className="about">
             <div className="about__top">
-                <Grid container>
+                <Grid container className={classes.mainContainer}>
                     <Grid item container xs={12} md={6} className="about__topGrid">
                        <Grid item xs={3} />
                        <Grid item xs={9}>

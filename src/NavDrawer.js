@@ -13,7 +13,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const useStyles = makeStyles({
   list: {
@@ -54,36 +54,22 @@ export default function NavDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <ListItem button>
-          <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
+        <NavLink exact to="/" 
+          style={{ textDecoration: 'none', color: 'black' }}
+          activeStyle={{ color: 'yellow'}}
+          >
+          <ListItem button>
             <ListItemText>Home</ListItemText>
-          </Link>
-        </ListItem>
-        {/* <ListItem button>
-          <Link to="#" style={{ textDecoration: 'none', color: 'black' }}>
-            <ListItemText>About Us</ListItemText>
-          </Link>
-        </ListItem> */}
-        <ListItem button>
-          <Link to="/products" style={{ textDecoration: 'none', color: 'black' }}>
-            <ListItemText>Products</ListItemText>
-          </Link>
-        </ListItem>
-        {/* <ListItem button>
-          <Link to="#" style={{ textDecoration: 'none', color: 'black' }}>
-            <ListItemText>Services</ListItemText>
-          </Link>
-        </ListItem> */}
-        {/* <ListItem button>
-          <Link to="#" style={{ textDecoration: 'none', color: 'black' }}>
-            <ListItemText>Partners</ListItemText>
-          </Link>
-        </ListItem> */}
-        <ListItem button>
-          <Link to="/contact" style={{ textDecoration: 'none', color: 'black' }}>
-            <ListItemText>Contact Us</ListItemText>
-          </Link>
-        </ListItem>
+          </ListItem>
+        </NavLink>
+        <NavLink exact to="/about" 
+          style={{ textDecoration: 'none', color: 'black' }}
+          activeStyle={{ color: 'yellow'}}
+          >
+          <ListItem button>
+            <ListItemText>About</ListItemText>
+          </ListItem>
+        </NavLink>
       </List>
     </div>
   );

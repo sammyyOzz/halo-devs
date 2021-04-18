@@ -1,17 +1,21 @@
 import Grid from '@material-ui/core/Grid'
 import React from 'react'
 import './HomePortfolio.css'
+import useAnimate from './hooks/useAnimate'
 import driftHub from './images/driftHub.png'
 import marketier from './images/marketier2.jpeg'
 
 function HomePortfolio() {
+    //hook import responsible for animation
+    useAnimate()
+
     return (
         <div className="homePortfolio">
             <h1>Our Portfolio</h1>
             <div className="homePortfolio__content">
                 <Grid container spacing={10}>
                     <Grid item xs={12} md={6}>
-                        <div className="homePortfolio__app">
+                        <div className="homePortfolio__app" data-aos="fade-in">
                             <h2>Drift Hub Application</h2>
                             <Grid item container>
                                 <Grid item xs={6}>
@@ -28,7 +32,7 @@ function HomePortfolio() {
                     </Grid>
 
                     <Grid item xs={12} md={6}>
-                        <div className="homePortfolio__app">
+                        <div className="homePortfolio__app" data-aos="fade-in">
                             <h2>Marketier</h2>
                             <Grid item container>
                                 <Grid item xs={6}>

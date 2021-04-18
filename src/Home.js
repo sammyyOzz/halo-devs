@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Home.css'
 import Grid from '@material-ui/core/Grid'
 import haloMoon from './images/halo-moon.svg'
 import { makeStyles } from '@material-ui/core/styles';
-import Aos from 'aos';
-import "aos/dist/aos.css";
+import useAnimate from './hooks/useAnimate';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -18,9 +17,8 @@ const useStyles = makeStyles((theme) => ({
 function Home() {
     const classes = useStyles();
 
-    useEffect(() => {
-        Aos.init({ duration: 2000 })
-    }, [])
+    //hook import responsible for animation
+    useAnimate()
 
     return (
         <div className="home">

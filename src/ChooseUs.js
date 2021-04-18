@@ -1,9 +1,13 @@
 import Grid from '@material-ui/core/Grid'
 import React from 'react'
 import './ChooseUs.css'
+import useAnimate from './hooks/useAnimate'
 import chooseUsImg from './images/gettyimages-621272078-612x612.jpg'
 
 function ChooseUs() {
+    //hook import responsible for animation
+    useAnimate()
+    
     return (
         <div className="chooseUs">
             <Grid container>
@@ -19,7 +23,7 @@ function ChooseUs() {
                 <Grid item container xs={12} md={6}>
                     <Grid item xs={2} />
                     <Grid item xs={8} className="chooseUs__gridImg">
-                       <img src={chooseUsImg} alt=""/>
+                       <img src={chooseUsImg} alt="" data-aos="fade-in" />
                     </Grid>
                     <Grid item xs={2} />
                 </Grid>
