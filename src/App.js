@@ -12,6 +12,7 @@ import HomePortfolio from './HomePortfolio';
 import Footer from './Footer';
 import AboutUs from './AboutUs';
 import ChooseUs from './ChooseUs';
+import ContactUs from './ContactUs';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/about">
             <AboutUs />
             <ChooseUs />
+            <ContactUs />
           </Route>
         </Switch>
         <Footer />

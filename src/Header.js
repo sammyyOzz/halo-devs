@@ -15,10 +15,10 @@ function Header() {
             </NavLink>
 
             <div className="header__nav">
-                <NavLink exact to="/" className="header__link" activeStyle={{ color: ' #C9D500' }}>
+                <NavLink exact to="/" className="header__link" activeStyle={{ borderBottom: '4px solid yellow' }}>
                     Home
                 </NavLink>
-                <NavLink to="/about" className="header__link" activeStyle={{ color: ' #C9D500' }}>
+                <NavLink to="/about" className="header__link" activeStyle={{ borderBottom: '4px solid yellow' }}>
                     About
                 </NavLink>
             </div>
