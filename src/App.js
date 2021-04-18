@@ -11,6 +11,7 @@ import HomeFeedback from './HomeFeedback';
 import HomePortfolio from './HomePortfolio';
 import Footer from './Footer';
 import AboutUs from './AboutUs';
+import ChooseUs from './ChooseUs';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           </Route>
           <Route exact path="/about">
             <AboutUs />
+            <ChooseUs />
           </Route>
         </Switch>
         <Footer />
