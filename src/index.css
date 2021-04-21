@@ -5,8 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(./images/gids-100.jpg) repeat;
-  background-size: 400px 800px;
 }
 
 code {

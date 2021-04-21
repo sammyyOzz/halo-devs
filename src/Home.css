@@ -1,7 +1,8 @@
 .home__top {
-    background-color:  #29292b;
+    background-color:  #38383d;
     height: 80vh;
     width: 100vw;
+    padding-top: 81px;
 }
 
 .home__topGrid {
@@ -10,10 +11,6 @@
     color: white;
     align-items: center;
     flex-direction: column;
-}
-
-.home__topGridContent {
-    display: block;
 }
 
 .home__topGrid > button {
@@ -52,6 +49,6 @@
     }
 
     .home__topGrid > img {
-        max-width: 30%;
+        max-width: 50%;
     }
 }

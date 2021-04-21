@@ -1,5 +1,5 @@
 .homeFeedback {
-    background-color: #29292b;
+    background-color: #38383d;
     color: white;
     text-align: center;
     padding-top: 25px;
@@ -22,4 +22,13 @@
 
 .homeFeedback__carouselText {
     color: yellow;
+    height: 50px;
+    -webkit-box-shadow: 0 0 7px #c7c1c1;
+    box-shadow: 0 0 7px #c7c1c1;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

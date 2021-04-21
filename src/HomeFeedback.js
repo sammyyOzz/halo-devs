@@ -31,12 +31,12 @@ function HomeFeedback() {
                             {
                                 testimonies.map((text, i) => {
                                     return (
-                                        <p
+                                        <div
                                             key={i}
                                             className="homeFeedback__carouselText"
                                         >
-                                            {text}
-                                        </p>
+                                            <div>{text}</div>
+                                        </div>
                                     )
                                 })
                             }

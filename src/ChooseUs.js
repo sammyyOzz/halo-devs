@@ -12,20 +12,20 @@ function ChooseUs() {
         <div className="chooseUs">
             <Grid container>
                 <Grid item container xs={12} md={6}>
-                    <Grid item xs={2} />
-                    <Grid item xs={8} className="chooseUs__grid">
-                        <h1>Value is a product of choice !</h1>
+                    <Grid item xs={1} />
+                    <Grid item xs={10} className="chooseUs__grid">
+                        <h1>Value is a product of choice</h1>
                         <h2>so why choose us ?</h2>
                         <p>We believe that by our focus in developing cutting edge technologies and services will bring about major technological advancement in sub-saharan Africa and to the world generally. </p>
                     </Grid>
                     <Grid item xs={2} />
                 </Grid>
                 <Grid item container xs={12} md={6}>
-                    <Grid item xs={2} />
-                    <Grid item xs={8} className="chooseUs__gridImg">
+                    <Grid item xs={1} />
+                    <Grid item xs={10} className="chooseUs__gridImg">
                        <img src={chooseUsImg} alt="" data-aos="fade-in" />
                     </Grid>
-                    <Grid item xs={2} />
+                    <Grid item xs={1} />
                 </Grid>
             </Grid>
         </div>

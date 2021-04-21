@@ -2,7 +2,9 @@
     height: auto;
     margin-top: 16px;
     text-align: center;
-    margin-bottom: 150px;
+    padding-bottom: 50px;
+    background: url(./images/gids-100.jpg) repeat;
+    background-size: 1000px 2000px;
 }
 
 .contactUs > h2 {
@@ -10,24 +12,26 @@
 }
 
 .contactUs > h1 {
-    margin: 25px 0px;
+    margin: 25px 0px 55px 0px;
 }
 
-.contactUs > p {
-    font-size: 20px;
-    margin-bottom: 30px;
+.contactUs__Text {
+    font-size: 23px;
+    margin:  0px 20px 60px 20px;
+    text-align: left;
+    color: rgb(70, 68, 68);
 }
 
 .contactUs__form{
     margin-left: 15px;
     margin-right: 15px;
-    background-color: rgba(95, 109, 91, 0.781);
-    padding: 20px;
-    box-shadow: 4px 5px 5px rgb(44, 38, 38);
+    /* background-color: rgb(240, 216, 4); */
+    /* padding: 20px; */
+    /* box-shadow: 4px 5px 5px rgb(44, 38, 38); */
 }
 
 .contactUs > h3 {
-    background-color: rgb(95, 185, 87);
+    background-color: rgb(237, 243, 236);
     margin-bottom: 20px;
     text-align: center;
     padding-top: 10px;
@@ -41,39 +45,61 @@
 }
 
 .contactUs__form > form > input {
-    height: 30px;
-    margin-bottom: 15px;
+    height: 35px;
+    margin-bottom: 30px;
     border-radius: 8px;
+    border: 1px solid rgba(199, 192, 192, 0.918);
+    padding-left: 10px;
 }
 
 .contactUs__form > form > input:focus, .contactUs__form > form > textarea:focus {
-    border: 2px solid rgb(100, 214, 66);
+    border: 2px solid rgb(231, 195, 34);
 }
 
 .contactUs__form > form > textarea {
     height: 100px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     border-radius: 8px;
+    border: 1px solid rgba(199, 192, 192, 0.918);
+    padding-left: 10px;
 }
 
 .contactUs__form > form > button {
-    /* display: block; */
-    /* padding-left: 10px; */
     width: 100%;
     height: 40px;
     margin-bottom: 15px;
     border-radius: 8px;
     text-align: center;
-    color: white;
+    color: black;
     cursor: pointer;
     background-color: yellow;
+    border: none;
 }
 
 .contactUs__info {
-    background-color: rgb(51, 50, 50);
+    background-color: #222224;
     color: white;
-    min-height: 300px;
+    min-height: 400px;
+    position: relative;
     
+}
+
+.contactUs__infoYellowBox {
+    background-color: yellow;
+    height: 150px;
+    width: 60%;
+    position: absolute;
+    top: -150px;
+    right: 0;
+}
+
+.contactUs__infoYellowBoxII {
+    background-color: yellow;
+    height: 50px;
+    width: 60%;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
 }
 
 .contactUs__infoContent {
@@ -87,3 +113,12 @@
 }
 
 
+@media(max-width: 959px) {
+    .contactUs__infoYellowBox, .contactUs__infoYellowBoxII {
+        display: none;
+    }
+
+    /* .contactUs__info {
+        min-height: 600px;
+    } */
+}

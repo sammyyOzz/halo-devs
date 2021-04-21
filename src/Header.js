@@ -9,7 +9,7 @@ function Header() {
         <div className="header">
             <NavLink to="/" style={{textDecoration: 'none'}}>
                 <div className="header__logo">
-                    <span>Hal</span>
+                    <span style={{color: 'black'}}>Hal</span>
                     <span style={{color: 'yellow'}}>o</span>
                 </div>
             </NavLink>

@@ -7,10 +7,11 @@ function Footer() {
         <div className="footer">
             <h4>Owerri, Imo state, Nigeria</h4>
             <Grid container>
-                <Grid item xs={6}>
+                <Grid item xs={2} />
+                <Grid item xs={3}>
                     <span style={{color: 'yellow'}}>Contact Us:</span>
                 </Grid>
-                <Grid item container xs={6}>
+                <Grid item container xs={5}>
                     <Grid item xs={12} md={6}>
                         +234 813 253 2887
                     </Grid>
@@ -18,6 +19,7 @@ function Footer() {
                         +234 903 632 9918
                     </Grid>
                 </Grid>
+                <Grid item xs={2} />
             </Grid>
         </div>
     )

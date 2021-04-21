@@ -56,7 +56,7 @@ export default function NavDrawer() {
       <List>
         <NavLink exact to="/" 
           style={{ textDecoration: 'none', color: 'black' }}
-          activeStyle={{ color: 'yellow'}}
+          activeStyle={{ color: 'rgb(170, 170, 3)'}}
           >
           <ListItem button>
             <ListItemText>Home</ListItemText>
@@ -64,7 +64,7 @@ export default function NavDrawer() {
         </NavLink>
         <NavLink exact to="/about" 
           style={{ textDecoration: 'none', color: 'black' }}
-          activeStyle={{ color: 'yellow'}}
+          activeStyle={{ color: 'rgb(170, 170, 3)'}}
           >
           <ListItem button>
             <ListItemText>About</ListItemText>

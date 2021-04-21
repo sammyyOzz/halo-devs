@@ -1,9 +1,9 @@
 .footer {
-    background-color: #29292b;
-    padding: 15px 15px;
+    background-color: #38383d;
+    padding: 30px 15px 40px 15px;
     text-align: center;
     color: white;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .footer > h4 {

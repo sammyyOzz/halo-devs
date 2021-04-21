@@ -3,6 +3,8 @@
     width: 100%;
     margin-top: 30px;
     padding-bottom: 50px;
+    background: url(./images/gids-100.jpg) repeat;
+    background-size: 1000px 2000px;
 }
 
 #homeServices__ourServices {
@@ -25,9 +27,17 @@
     height: 300px;
     width: 250px;
     padding: 8px;
-    background-color: rgba(240, 240, 191, 0.911);
-    border: 1px solid gray;
-    box-shadow: 3px 8px 12px rgb(27, 26, 26);
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px #575454;
+    box-shadow: 0 0 15px #575454;
+    transition: all linear 200ms;
+    margin: 25px 10px;
+    border-radius: 10px;
+}
+
+.homeServices__card:hover {
+    transform: scale(1.02);
+    transition: all linear 200ms;
 }
 
 .homeServices__card > h2 {
@@ -49,6 +59,6 @@
 @media(max-width: 610px) {
 
     .homeServices__carousel {
-        width: 50%
+        width: 75%
     }
 }

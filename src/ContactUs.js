@@ -22,9 +22,14 @@ function ContactUs() {
         <div className="contactUs">
             <h2>Contact Us</h2>
             <h1>Send us an email today</h1>
-            <p>Feel free to contact us anytime. We will get back to you as soon as we can.</p>
             <Grid container>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={7}>
+                    <p className="contactUs__Text">Feel free to contact us anytime. We will get back to you as soon as we can.</p>
+                </Grid>
+                <Grid item md={5} />
+            </Grid>
+            <Grid container>
+                <Grid item xs={12} md={7}>
                     <div className="contactUs__form">
                         <form onSubmit={handleSubmit}>
                             <input type="text" placeholder="Name"
@@ -46,7 +51,8 @@ function ContactUs() {
                         </form>
                     </div>
                 </Grid> 
-                <Grid item container xs={12} md={6} className="contactUs__info">
+                <Grid item container xs={12} md={5} className="contactUs__info">
+                    <div className="contactUs__infoYellowBox" />
                     <Grid item xs={2} />
                     <Grid item xs={8} className="contactUs__infoContent">
                         <div>
@@ -64,6 +70,7 @@ function ContactUs() {
                         </div>
                     </Grid>
                     <Grid item xs={2} />
+                    <div className="contactUs__infoYellowBoxII" />
                 </Grid>
             </Grid>
         </div>

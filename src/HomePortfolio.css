@@ -1,7 +1,9 @@
 .homePortfolio {
     padding-top: 50px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    background: url(./images/gids-100.jpg) repeat;
+    background-size: 1000px 2000px;
 }
 
 .homePortfolio > h1 {
@@ -16,7 +18,7 @@
 }
 
 .homePortfolio__app {
-    width: 100%;
+    width: 90%;
     padding: 15px;
     height: 310px;
     border-radius: 10px;
@@ -44,4 +46,6 @@
 
 .homePortfolio__img {
     height: 200px;
+    width: 100%;
+    object-fit: contain;
 }
