@@ -1,5 +1,4 @@
 import Grid from '@material-ui/core/Grid';
-import axios from 'axios';
 import React, { useState } from 'react'
 import './ContactUs.css'
 
@@ -16,8 +15,9 @@ function ContactUs() {
         // axios.post('', contact)
         // .then(() => alert('successfully sent'))
         // .catch(() => alert('sorry, there was a problem completing the action'))
-        setContact({ ...contact, name: '', email: '', subject: '', message: '' })
+        // setContact({ ...contact, name: '', email: '', subject: '', message: '' })
     }
+
     return (
         <div className="contactUs">
             <h2>Contact Us</h2>

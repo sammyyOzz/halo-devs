@@ -41,6 +41,7 @@ function Home() {
 
     return (
         <div className="home">
+            {/* <div className="home__topPad" /> */}
             <div className="home__top">
                 <Grid container className={classes.mainContainer}>
                     <Grid item xs={12} md={5} className="home__topGrid">

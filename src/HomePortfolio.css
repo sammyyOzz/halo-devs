@@ -20,7 +20,7 @@
 .homePortfolio__app {
     width: 90%;
     padding: 15px;
-    height: 310px;
+    /* height: 310px; */
     border-radius: 10px;
     background-color: white;
     /* box-shadow: 5px 10px 8px #888888; */
@@ -35,7 +35,7 @@
 }
 
 .homePortfolio__app > h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 15px;
 }
 
@@ -48,4 +48,26 @@
     height: 200px;
     width: 100%;
     object-fit: contain;
+}
+
+.homePortfolio__btn {
+    color: rgb(58, 55, 55);
+    background-color: yellow;
+    border: none;
+    padding: 5px 18px;
+    margin-top:10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.homePortfolio__err {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(248, 37, 37);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -2,7 +2,12 @@
     background-color:  #38383d;
     height: 80vh;
     width: 100vw;
-    padding-top: 81px;
+    margin-top: 81px;
+    /* padding-top: 81px; */
+}
+
+.home__topPad {
+    height: 100px;
 }
 
 .home__topGrid {
